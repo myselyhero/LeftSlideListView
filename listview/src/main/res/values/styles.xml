@@ -6,8 +6,9 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <!--全局去除标题栏
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>-->
     </style>
+    <!---->
+    <declare-styleable name="swipelistviewstyle">
+        <attr name="right_width" format="dimension"></attr>
+    </declare-styleable>
 </resources>

@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!--right_width隐藏Group的宽度-->
+    <com.gy.wyy.slide.library.view.MyListView
+        android:id="@+id/main_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#cccccc"
+        android:dividerHeight="1px"
+        android:listSelector="#00000000"
+        app:right_width="100dp"/>
 
 </android.support.constraint.ConstraintLayout>
